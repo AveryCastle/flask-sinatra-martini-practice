@@ -1,10 +1,12 @@
 # flask-sinatra-martini-practice
- flask-sinatra-martini 실습
+ flask-sinatra-martini 블로그 글 따라하기
 
-참고: [Python, Ruby, and Golang: A Web Service Application Comparison](https://realpython.com/blog/python/python-ruby-and-golang-a-web-Service-application-comparison/)
+참고
+- 블로그: [Python, Ruby, and Golang: A Web Service Application Comparison](https://realpython.com/blog/python/python-ruby-and-golang-a-web-Service-application-comparison/)
+- 저장소: [https://github.com/realpython/flask-sinatra-martini](https://github.com/realpython/flask-sinatra-martini)
 
 
-## Go Path 설정 및 package import 방법
+## Go Prerequisite
 - 참고: [https://golang.org/doc/code.html#GOPATH](https://golang.org/doc/code.html#GOPATH)
 
 ### Go Path 설정 방법
