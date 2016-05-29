@@ -1,0 +1,2 @@
+# initialize application
+require 'sinatra'
