@@ -5,17 +5,23 @@
 - 블로그: [Python, Ruby, and Golang: A Web Service Application Comparison](https://realpython.com/blog/python/python-ruby-and-golang-a-web-Service-application-comparison/)
 - 저장소: [https://github.com/realpython/flask-sinatra-martini](https://github.com/realpython/flask-sinatra-martini)
 
-## Ruby Prerequsite
-로컬에서 테스트하기 위해서
+## Running Ruby Locally
+Install the required Rubygems:
+~~~ bash
+$ bundle install
+~~~
+Set an environment variable to point to the location of your MongoDB instance
 ~~~ bash
 $ export DB_PORT_27017_TCP_ADDR=127.0.0.1:27017
 ~~~
-
-로컬에서 mongo db를 start해야 한다.
+Start mongodb:
 ~~~bash
 $ mongod
 ~~~
-
+Run sinatra:
+~~~bash
+$ ruby app.rb
+~~~
 
 ## Go Prerequisite
 - 참고: [https://golang.org/doc/code.html#GOPATH](https://golang.org/doc/code.html#GOPATH)
