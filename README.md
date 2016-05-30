@@ -39,3 +39,10 @@ $ mkdir -p $GOPATH/github.com/martini-contrib/render
 $ go get github.com/go-martini/martini
 $ go get github.com/martini-contrib/render
 ~~~
+
+
+### 기타
+Can list environment variables in web container using:
+~~~ bash
+docker-compose run web env
+~~~
