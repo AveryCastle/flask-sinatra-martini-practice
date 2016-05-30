@@ -41,8 +41,28 @@ $ go get github.com/martini-contrib/render
 ~~~
 
 
-### 기타
+### Docker Environment variables
+참고: [http://blog.bananacoding.com/blog/development-workflow-using-docker-and-docker-compose](http://blog.bananacoding.com/blog/development-workflow-using-docker-and-docker-compose)
+
 Can list environment variables in web container using:
 ~~~ bash
-docker-compose run web env
+$ docker-compose run web env
+~~~
+output:
+~~~ bash
+Starting python_db_1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+HOSTNAME=4ff8e1bd38f8
+TERM=xterm
+DB_PORT=tcp://172.17.0.2:27017
+DB_PORT_27017_TCP=tcp://172.17.0.2:27017
+DB_PORT_27017_TCP_ADDR=172.17.0.2
+DB_PORT_27017_TCP_PORT=27017
+DB_PORT_27017_TCP_PROTO=tcp
+DB_NAME=/python_web_run_1/db
+DB_ENV_GOSU_VERSION=1.7
+DB_ENV_GPG_KEYS=DFFA3DCF326E302C4787673A01C4E7FAAAB2461C
+DB_ENV_MONGO_MAJOR=3.2
+DB_ENV_MONGO_VERSION=3.2.6
+...
 ~~~
